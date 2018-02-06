@@ -1,4 +1,5 @@
 ## Useful bash aliases
+## (c) Dmitry Bravikov <dmitry@bravikov.pro>
 ## Usage:
 ## 1. Move this file to home directory.
 ## 2. Add to .bash_aliases next string (without quotes): "source .bravikov_bash_aliases"
