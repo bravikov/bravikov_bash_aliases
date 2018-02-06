@@ -1,0 +1,14 @@
+## Useful bash aliases
+## Usage:
+## 1. Move this file to home directory.
+## 2. Add to .bash_aliases next string (without quotes): "source .bravikov_bash_aliases"
+## 3. Run terminal and use aliases.
+
+## Returns timestamp
+alias timestamp='date -u +%Y-%m-%d_%H-%M-%S_%Z'
+
+## Converts URL to URL with chars instead of %XX
+alias url='s1="s|%|\\\\x|g"; read -p "> " URL; echo -e "> `echo $URL | sed $s1`"'
+
+## Converts URL to URL with chars instead of %XX and with \ instead of /
+alias winurl='url | sed "s|\/|\\\\|g"'
